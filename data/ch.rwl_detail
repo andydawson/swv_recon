@@ -1,0 +1,48 @@
+ num = number of series             ident = series identification
+ ify = first year of time series      ily = last year of time series
+ yfp = years from pith for rcs        itn = transform (>3 = power*1000)
+ idt = series detrending options      ips = series ar model order options
+ isb = stabilize variance options     icu = use (1) or do not use (0)
+ ics = save (1) or do not save (0)    cpa = common period analysis series
+                   -- do not delete these lines --
+ num  ident      ify   ily   yfp   itn   idt   ips   isb   icu   ics   cpa
+   1  OBH011    1947  1992     0     0    50     0     0     1     1     1
+   2  OBH012    1920  1993     0     0    50     0     0     1     1     2
+   3  OBH021    1923  1993     0     0    50     0     0     1     1     3
+   4  OBH022    1951  1993     0     0    50     0     0     1     1     4
+   5  OBH031    1927  1993     0     0    50     0     0     1     1     5
+   6  OBH032    1940  1993     0     0    50     0     0     1     1     6
+   7  OBH051    1897  1993     0     0    50     0     0     1     1     7
+   8  OBH052    1899  1993     0     0    50     0     0     1     1     8
+   9  OBH061    1926  1990     0     0    50     0     0     1     1     9
+  10  OBH062    1918  1993     0     0    50     0     0     1     1    10
+  11  OBH071    1938  1993     0     0    50     0     0     1     1    11
+  12  OBH072    1894  1993     0     0    50     0     0     1     1    12
+  13  OBH081    1905  1993     0     0    50     0     0     1     1    13
+  14  OBH082    1905  1993     0     0    50     0     0     1     1    14
+  15  OBH091    1881  1993     0     0    50     0     0     1     1    15
+  16  OBH092    1916  1993     0     0    50     0     0     1     1    16
+  17  OBH101    1931  1993     0     0    50     0     0     1     1    17
+  18  OBH102    1928  1986     0     0    50     0     0     1     1    18
+  19  OBH111    1925  1993     0     0    50     0     0     1     1    19
+  20  OBH112    1927  1993     0     0    50     0     0     1     1    20
+  21  OBH121    1937  1993     0     0    50     0     0     1     1    21
+  22  OBH122    1939  1993     0     0    50     0     0     1     1    22
+  23  OBH131    1910  1993     0     0    50     0     0     1     1    23
+  24  OBH132    1914  1993     0     0    50     0     0     1     1    24
+  25  OBH141    1924  1992     0     0    50     0     0     1     1    25
+  26  OBH142    1917  1992     0     0    50     0     0     1     1    26
+  27  OBH152    1942  1993     0     0    50     0     0     1     1    27
+  28  OBH161    1918  1993     0     0    50     0     0     1     1    28
+  29  OBH162    1928  1993     0     0    50     0     0     1     1    29
+  30  OBH171    1938  1993     0     0    50     0     0     1     1    30
+  31  OBH172    1917  1993     0     0    50     0     0     1     1    31
+  32  OBH191    1961  1993     0     0    50     0     0     1     1    32
+  33  OBH192    1946  1993     0     0    50     0     0     1     1    33
+  34  OBH201    1926  1993     0     0    50     0     0     1     1    34
+  35  OBH202    1925  1993     0     0    50     0     0     1     1    35
+  36  OBH211    1940  1993     0     0    50     0     0     1     1    36
+  37  OBH212    1940  1993     0     0    50     0     0     1     1    37
+  38  OBH221    1926  1993     0     0    50     0     0     1     1    38
+  39  OBH222    1918  1993     0     0    50     0     0     1     1    39
+  40  OBH231    1908  1993     0     0    50     0     0     1     1    40

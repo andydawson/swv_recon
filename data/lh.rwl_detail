@@ -1,0 +1,27 @@
+ num = number of series             ident = series identification
+ ify = first year of time series      ily = last year of time series
+ yfp = years from pith for rcs        itn = transform (>3 = power*1000)
+ idt = series detrending options      ips = series ar model order options
+ isb = stabilize variance options     icu = use (1) or do not use (0)
+ ics = save (1) or do not save (0)    cpa = common period analysis series
+                   -- do not delete these lines --
+ num  ident      ify   ily   yfp   itn   idt   ips   isb   icu   ics   cpa
+   1  LYN02A    1850  1997     0     0    50     0     0     1     1     1
+   2  LYN02B    1849  1997     0     0    50     0     0     1     1     2
+   3  LYN03A    1875  1997     0     0    50     0     0     1     1     3
+   4  LYN04A    1812  1997     0     0    50     0     0     1     1     4
+   5  LYN04B    1776  1997     0     0    50     0     0     1     1     5
+   6  LYN05A    1802  1997     0     0    50     0     0     1     1     6
+   7  LYN05B    1788  1997     0     0    50     0     0     1     1     7
+   8  LYN06A    1803  1997     0     0    50     0     0     1     1     8
+   9  LYN07A    1859  1997     0     0    50     0     0     1     1     9
+  10  LYN07B    1883  1997     0     0    50     0     0     1     1    10
+  11  LYN08A    1750  1949     0     0    50     0     0     1     1    11
+  12  LYN08B    1751  1997     0     0    50     0     0     1     1    12
+  13  LYN09A    1825  1997     0     0    50     0     0     1     1    13
+  14  LYN10A    1802  1997     0     0    50     0     0     1     1    14
+  15  LYN10B    1783  1997     0     0    50     0     0     1     1    15
+  16  LYN12A    1832  1997     0     0    50     0     0     1     1    16
+  17  LYN15A    1814  1997     0     0    50     0     0     1     1    17
+  18  LYN18A    1830  1997     0     0    50     0     0     1     1    18
+  19  LYN18B    1784  1997     0     0    50     0     0     1     1    19

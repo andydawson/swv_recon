@@ -1,0 +1,33 @@
+ num = number of series             ident = series identification
+ ify = first year of time series      ily = last year of time series
+ yfp = years from pith for rcs        itn = transform (>3 = power*1000)
+ idt = series detrending options      ips = series ar model order options
+ isb = stabilize variance options     icu = use (1) or do not use (0)
+ ics = save (1) or do not save (0)    cpa = common period analysis series
+                   -- do not delete these lines --
+ num  ident      ify   ily   yfp   itn   idt   ips   isb   icu   ics   cpa
+   1  038011    1692  1979     0     0    50     0     0     1     1     1
+   2  038012    1699  1980     0     0    50     0     0     1     1     2
+   3  038021    1725  1980     0     0    50     0     0     1     1     3
+   4  038022    1725  1980     0     0    50     0     0     1     1     4
+   5  038051    1782  1980     0     0    50     0     0     1     1     5
+   6  038052    1750  1980     0     0    50     0     0     1     1     6
+   7  038091    1726  1980     0     0    50     0     0     1     1     7
+   8  038092    1766  1980     0     0    50     0     0     1     1     8
+   9  038141    1696  1980     0     0    50     0     0     1     1     9
+  10  038142    1708  1980     0     0    50     0     0     1     1    10
+  11  038143    1700  1980     0     0    50     0     0     1     1    11
+  12  038161    1741  1980     0     0    50     0     0     1     1    12
+  13  038162    1777  1980     0     0    50     0     0     1     1    13
+  14  038171    1713  1980     0     0    50     0     0     1     1    14
+  15  038172    1712  1980     0     0    50     0     0     1     1    15
+  16  038221    1642  1980     0     0    50     0     0     1     1    16
+  17  038222    1728  1980     0     0    50     0     0     1     1    17
+  18  059021    1700  1888     0     0    50     0     0     1     1    18
+  19  059051    1692  1974     0     0    50     0     0     1     1    19
+  20  059052    1684  1981     0     0    50     0     0     1     1    20
+  21  059071    1780  1981     0     0    50     0     0     1     1    21
+  22  059091    1761  1981     0     0    50     0     0     1     1    22
+  23  059092    1738  1981     0     0    50     0     0     1     1    23
+  24  059101    1766  1981     0     0    50     0     0     1     1    24
+  25  059102    1759  1981     0     0    50     0     0     1     1    25
