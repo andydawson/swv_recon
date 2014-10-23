@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage[margin=1in]{geometry}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[numbers,sort&compress, square]{natbib}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+\usepackage{pdflscape}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\linespread{1.5}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2ex plus 1ex minus 1ex}
+
+\begin{document}
+\title{A tree-ring based reconstruction of early summer precipitation in southwestern Virginia {(1750-1981)}}
+%\author{Andria Dawson\footnote{University of Alberta, Edmonton AB; \url{adawson@ualberta.ca}},\ \ 
+%   David Austen\footnote{Appalachian State University},\ \ 
+%   David Walker\footnote{Virginia Tech},\ \ 
+%   and Valerie Trouet\footnote{University of Arizona}}
+\author{Andria Dawson, David Austin, David Walker, and Valerie Trouet}
+
+\maketitle
+
+\section*{Abstract}
+
+In a closed-canopy forest, stand dynamics play an important role in shaping the forest, and it has been hypothesized that dense forests are not sufficiently limited by climate to warrant climate reconstruction. We collected \textit{Quercus prinus} tree-ring data from a dense forest in the Appalachians, and after removal of stand dynamics and age trends we find strong correlations between annual tree growth and early summer precipitation. To strengthen the climate signal, we include additional southeastern US \textit{Quercus prinus} chronologies in a nested principal component analysis (PCA). Correlation between the growth proxy and early summer precipitation was increased through PCA, and assessment of reconstruction skill was favorable. The reconstruction was modeled using a Bayesian regression model, which allowed uncertainty to be quantified. The reconstruction covered the period 1750-1981, and extended the instrumental record by 150 years. The reconstruction showed key drought years identified by others, as well as 11-year periodicity.
+
+%%
+%% body
+%%
+
+\input{body.tex}
+
+%%
+%% tables and figures
+%%
+
+\clearpage
+\newpage
+\input{tables.tex}
+
+\clearpage
+\newpage
+\input{figures.tex}
+
+%%
+%% reference
+%%
+
+\newpage
+\clearpage
+%\bibliographystyle{unsrtnat}
+\bibliographystyle{ifac}
+\bibliography{oakRecon}
+
+\end{document}

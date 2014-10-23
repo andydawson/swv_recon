@@ -1,0 +1,147 @@
+%tables
+\begin{landscape}
+\begin{table}
+\begin{center}
+\begin{tabular}{ccccrccc} \toprule
+Chron & Lat (N), Long (W) & SIC   & MS    & \# Series & MSL & Period      & Citation\\ \midrule
+BM    &  37.37, 80.24 & 0.556 & 0.208 & 76        & 128.3              & 1764 - 2010 &         \\
+LH    &  35.62, 85.43 & 0.609 & 0.171 & 19        & 181.4              & 1750 - 1997 &  Stahle, D.W.           \\
+      &               &       &       &           &                    &             &  \& Therrell, M.D. 2005 \\
+WD    &  38.50, 78.35 & 0.523 & 0.163 & 26        & 250.8              & 1642 - 1981 &  Cook, E.R. 1994  \\
+CC    &  37.35, 80.37 & 0.592 & 0.218 & 20        & 194.1              & 1722 - 2001 &  Copenheaver, C.A. 2010 \\
+OC    &  39.88, 76.40 & 0.575 & 0.169 & 18        & 260.2              & 1631 - 1981 &  Cook, E.R. 1994  \\
+%CH    &  38.00, 78.42 & 0.569 & 0.189 & 41        & 69.3               & 1881 - 1993 &  Lawrence, D.M. 1996 \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+\caption{Site-specific details for the Brush Mountain (BM), Lynn Hollow, Watchdog Mountain (WD), Craig Creek (CC), and Otter Creek (CC) sites, including location, series intercorrelation (SIC), mean sensitivity (MS), number of series (\# Series), mean series length (MSL), and the data citation. }
+\label{table:chronStats}
+\vspace{2cm}
+\end{table}
+\end{landscape}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccc} \toprule
+ & \multicolumn{2}{c}{Climate covariate} \\
+Proxy & mjPR & jjPDSI \\ \midrule
+BM    & 0.50  & 0.55  \\
+LH    & 0.55  & 0.48  \\
+WD    & 0.43  & 0.59  \\   
+CC    & 0.38  & 0.50  \\
+OC    & 0.24* & 0.19** \\
+%CH    & 0.49  & 0.43  \\
+PC1   & 0.61  & 0.63 \\ \bottomrule
+\end{tabular}
+\caption{Correlations between the growth proxies (site chronologies and first principal component PC1) with both the averaged May-June precipitation (mjPR) and averaged June-July PDSI (jjPDSI). All correlation statistics were significant at the $p<0.01$ level except the correlations indicated by *, which was significant at the $p<0.05$ level, and **, which was not significant ($p=0.09$).}
+\end{center}
+\label{table:moistureCorrs}
+\vspace{2cm}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+ & \multicolumn{4}{c}{Calibration} \\ \cmidrule(lr){2-5}
+ & \multicolumn{2}{c}{mjPR} & \multicolumn{2}{c}{jjPDSI} \\ \cmidrule(lr){2-3} \cmidrule(lr){4-5} 
+ & 1901-1941 & 1942-1981 & 1901-1941 & 1942-1981\\ \midrule
+%MSE & 25927 & 24239 & 85.5 & 151.7 \\ 
+RE                 & 0.10 & 0.30 & 0.44 & -0.41 \\
+CE                 & 0.10 & 0.30 & 0.39 & -0.60\\
+Calibration $R^2$  & 0.64 & 0.56 & 0.58 & 0.74\\
+Verification $R^2$ & 0.56 & 0.64 & 0.74 & 0.59 \\
+GLK                & 0.55 & 0.79 & 0.68 & 0.64\\ \bottomrule
+\end{tabular}
+\end{center}
+\caption{Reconstruction accuracy statistics for mjPR and jjPDSI. Statistics include the reduction of error (RE), coefficient of efficiency (CE), calibration and verification period $R^2$, and the Gleichl\"{a}ufigkeit (GLK).}
+\label{table:reconStats}
+\vspace{2cm}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{cccl} \toprule
+Parameter & Mean   & Median & 95\% Credible Interval \\ \midrule
+$\beta_0$ & 102.73 & 102.72       & $(98.51, 107.21)$ \\
+$\beta_1$ & 67.73  & 68.02        &  $(51.65, 83.66)$\\
+$\sigma$  & 23.19  & 23.07        & $(20.28, 26.40)$   \\  \bottomrule
+\end{tabular}
+\end{center}
+\caption{Posterior parameter mean, median, and 95\% credible interval for the intercept ($\beta_0$), slope ($\beta_1$) and standard deviation ($\sigma$) in the linear model which describes average May-June precipitation as a function of the first principal component growth proxy.}
+\label{table:mcmcResults}
+\vspace{2cm}
+\end{table}
+
+
+\begin{table}
+  \begin{center}
+    \begin{threeparttable}[b]
+      \begin{tabular}{cccccccc}
+\toprule
+ & \textbf{Recon} & \multicolumn{2}{c}{PDSI} & \multicolumn{4}{c}{Precip} \\ \cmidrule(lr){2-2} \cmidrule(lr){3-4} \cmidrule(lr){5-8}
+      & mjPR & JT & NADA & NC & SC & GA & MP\tnote{A} \\  \midrule
+mjPR  &  1      & & & & & & \\
+JT    &  0.215  & 1     &       &        &        &        &   \\ 
+NADA  &  0.593  & 0.502 & 1     &        &        &        &   \\ 
+NC    &  0.227  & 0.396 & 0.424 & 1      &        &        &   \\ 
+SC    &  0.118* & 0.178 & 0.352 & 0.581  &  1     &        &   \\ 
+GA    &  0.079* & 0.196 & 0.345 & 0.474  & 0.766  & 1      &   \\ 
+MP    &  0.378  & 0.288 & 0.499 & 0.132* & 0.090* & 0.109* & 1 \\ \bottomrule
+      \end{tabular}
+      \begin{tablenotes}
+      \item [A] Reconstruction covers only the period 1764 - 1966.
+      \end{tablenotes}
+    \end{threeparttable}
+  \end{center}
+      \caption{Correlation between the mjPR reconstruction and other reconstructions including the NADA and JT drought reconstructions; and the NC, SC, GA and MP precipitation reconstructions. All values shown were significantly correlated at the $p<0.01$ level, except for those indicated by $^*$ which were not significant.}
+  \label{table:reconComps1}
+  \vspace{2cm}
+\end{table}
+
+\begin{landscape}
+\begin{table}
+  \begin{center}
+    \begin{threeparttable}[b]
+      \begin{tabular}{cccccc}
+\toprule
+Site & Location & Variable & Range   & Data type & Variance           \\
+     &       &          & (years) &           & explained ($R^2$)$^A$  \\ \midrule
+NADA \cite{cook1999drought}          & 37$^{\circ}$30' N, 80$^{\circ}$0' W   & Jun-Aug PDSI   & 1185-2006 & Tree-rings  & 0.55* \\  
+                                     & VA                                    &                &           &             &       \\    
+JC   \cite{stahle1998lost}           & Coastal NC and VA                     & July PHDI      & 1700-1984 & Tree-rings  & 0.44 \\ 
+NC   \cite{stahle1992reconstruction} & Statewide NC                          & Apr-Jun precip & 933-1985  & Tree-rings  & 0.54 \\
+SC   \cite{stahle1992reconstruction} & Statewide SC                          & Mar-Jun precip & 1005-1985 & Tree-rings  & 0.58 \\
+GA   \cite{stahle1992reconstruction} & Statewide GA                          & Mar-Jun precip & 933-1985  & Tree-rings  & 0.68 \\
+MP   \cite{druckenbrod2003late}      & 38$^{\circ}$13' N, 78$^{\circ}$10' W; & Early summer   & 1784-1966 & Tree-rings; & 0.39 \\ 
+                                     & VA                                    & precip         &           & Meteorological diary \\ \bottomrule
+      \end{tabular}
+      \begin{tablenotes}
+      \item [A] $R^2$ values as reported in cited references; may or may not be adjusted.
+      \item [*] Median value of $R^2$ for all gridpoints.
+      \end{tablenotes}
+    \end{threeparttable}
+  \end{center}
+      \caption{Details for the six southeastern US moisture reconstructions compared to the mjPR reconstruction.}
+  \label{table:reconDeets}
+  \vspace{2cm}
+\end{table}
+
+\begin{table}
+  \begin{center}
+    \begin{tabular}{cccccc}
+\toprule
+Years     & Moisture & Consistent with \\ \midrule
+1894-1902 & Low & \cite{warrick1980drought, ruffner1998relating, droughtCali}\\
+1867-1874 & Low & \cite{droughtCali}\\
+1839      & Low & \\
+1819      & Low & \cite{lawson2005desert}\\
+1772-1777 & Low \\ \bottomrule
+      \end{tabular}
+  \end{center}
+      \caption{Periods of low moisture availability identified by the mjPR reconstruction and documented sources that corroborate this moisture deficit.}
+  \label{table:anoms}
+  \vspace{2cm}
+\end{table}
+\end{landscape}
+

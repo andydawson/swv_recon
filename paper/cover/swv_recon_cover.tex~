@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plain Cover Letter
+% LaTeX Template
+% Version 1.0 (28/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% http://www.rpi.edu/dept/arc/training/latex/resumes/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{letter} % Default font size of the document, change to 10pt to fit more text
+
+\usepackage{newcent} % Default font is the New Century Schoolbook PostScript font 
+%\usepackage{helvet} % Uncomment this (while commenting the above line) to use the Helvetica font
+
+% Margins
+\topmargin=-1in % Moves the top of the document 1 inch above the default
+\textheight=8.5in % Total height of the text on the page before text goes on to the next page, this can be increased in a longer letter
+\oddsidemargin=-10pt % Position of the left margin, can be negative or positive if you want more or less room
+\textwidth=6.5in % Total width of the text, increase this if the left margin was decreased and vice-versa
+
+\let\raggedleft\raggedright % Pushes the date (at the top) to the left, comment this line to have the date on the right
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{David Schimel, Editor-in-Chief \\
+Jet Propulsion Laboratory \\
+California Institute of Technology \\ 
+4800 Oak Grove Drive \\
+Pasadena CA 91109-8099}
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+\large\bf Dr. Andria Dawson \\ % Your name
+%\vspace{20pt} \hrule height 1pt % If you would like a horizontal line separating the name from the address, uncomment the line to the left of this text
+1218 Grove Way \\ Concord, CA 94518 \\ (925) 429-4466 % Your address and phone number
+\end{center} 
+\vfill
+
+\signature{Andria Dawson} % Your name for the signature at the bottom
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Dr. Schimel,} 
+ 
+I am writing to submit our manuscript entitled ``Predicting white spruce mortality from retrospective data: competition versus recent growth'' for consideration for publication as an article in Ecological Applications. This work advances both sampling methodology as well as our understanding of mixedwood spruce mortality processes. 
+
+We use a retrospective sampling scheme to obtain annual resolution forest inventory data. These methods use dendrochronological techniques and allow us to efficiently fill the existing white spruce data gap in Alberta. Using this annually-resolved data set, we further our understanding of mixedwood forest demography by characterizing the predictors of white spruce mortality. We develop and compare two mortality models based on two groups of predictors: local competition and recent growth. We find that local competition is almost as effective as recent growth at predicting mortality. In addition, we confirm the importance of early summer moisture availability for spruce survival. Our annual spruce mortality rate estimate is in accordance with results from previous work based on limited data.
+
+We confirm that this manuscript has not been published elsewhere and is not under consideration for publication elsewhere. All authors have approved the manuscript and in support of submission to Ecological Applications.
+
+We look forward to hearing from you at your earliest convenience. Please address all correspondence to andria.dawson@gmail.com, as indicated on Ecotrack.
+
+\closing{Sincerely,}
+
+
+%\encl{Curriculum vitae, employment form} % List your enclosed documents here, comment this out to get rid of the "encl:"
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}

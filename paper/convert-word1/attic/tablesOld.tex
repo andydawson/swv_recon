@@ -1,0 +1,125 @@
+%tables
+\begin{table}
+\begin{center}
+\begin{tabular}{ccccrccc} \toprule
+Chron & Lat (N), Long (W) & SIC   & MS    & \# Series & MSL & Period      & Citation\\ \midrule
+BM    &  37.37, 80.24 & 0.556 & 0.208 & 76        & 128.3              & 1764 - 2010 &         \\
+LH    &  35.62, 85.43 & 0.609 & 0.171 & 19        & 181.4              & 1750 - 1997 &  Stahle, D.W.           \\
+      &               &       &       &           &                    &             &  \& Therrell, M.D. 2005 \\
+WD    &  38.50, 78.35 & 0.523 & 0.163 & 26        & 250.8              & 1642 - 1981 &  Cook, E.R. 1994  \\
+CC    &  37.35, 80.37 & 0.592 & 0.218 & 20        & 194.1              & 1722 - 2001 &  Copenheaver, C.A. 2010 \\
+OC    &  39.88, 76.40 & 0.575 & 0.169 & 18        & 260.2              & 1631 - 1981 &  Cook, E.R. 1994  \\
+%CH    &  38.00, 78.42 & 0.569 & 0.189 & 41        & 69.3               & 1881 - 1993 &  Lawrence, D.M. 1996 \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+\caption{Site-specific details for the Brush Mountain (BM), Lynn Hollow, Watchdog Mountain (WD), Craig Creek (CC), and Otter Creek (CC) sites, including location, series intercorrelation (SIC), mean sensitivity (MS), number of series (\# Series), mean series length (MSL), and the data citation. }
+\label{table:chronStats}
+\vspace{2cm}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccc} \toprule
+ & \multicolumn{2}{c}{Climate covariate} \\
+Proxy & mjPR & jjPDSI \\ \midrule
+BM    & 0.50  & 0.55  \\
+LH    & 0.55  & 0.43  \\
+WD    & 0.39  & 0.61  \\   
+CC    & 0.39  & 0.50  \\
+OC    & 0.24* & 0.25*   \\
+%CH    & 0.49  & 0.43  \\
+PC1   & 0.64  & 0.67 \\ \bottomrule
+\end{tabular}
+\caption{Correlations between the growth proxies (site chronologies and first principal component PC1) with both the averaged May-June precipitation (mjPR) and averaged June-July PDSI (jjPDSI). All correlation statistics were significant at the $p<0.01$ level except those indicated by *, which were significant at the $p<0.05$ level.}
+\end{center}
+\label{table:moistureCorrs}
+\vspace{2cm}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+ & \multicolumn{2}{c}{mjPR} & \multicolumn{2}{c}{jjPDSI} \\ \cmidrule(lr){2-3} \cmidrule(lr){4-5} 
+ & early cal. & late cal. & early cal. & late cal.\\ \midrule
+%MSE & 25927 & 24239 & 85.5 & 151.7 \\ 
+RE &  0.11 & 0.40 & 0.52 & -0.16 \\
+CE & 0.11 & 0.39 & 0.48 & -0.33\\
+Calibration $r^2$ & 0.69 & 0.57 & 0.61 & 0.75\\
+Verification $r^2$ & 0.57 & 0.69 & 0.75 & 0.61 \\
+GLK & 0.58 & 0.85 & 0.75 & 0.59\\ \bottomrule
+\end{tabular}
+\caption{Reconstruction accuracy statistics for mjPR and jjPDSI. Statistics include the reduction of error (RE), coefficient of efficiency (CE), calibration and verification period $r^2$, and the Gleichl\"{a}ufigkeit (GLK).}
+\end{center}
+\label{table:reconStats}
+\vspace{2cm}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{cccl} \toprule
+Parameter & Mean   & Median & 95\% CI \\ \midrule
+$\beta_0$ & 102.73 & 102.72       & $(98.51, 107.21)$ \\
+$\beta_1$ & 67.73  & 68.02        &  $(51.65, 83.66)$\\
+$\sigma$  & 23.19  & 23.07        & $(20.28, 26.40)$   \\  \bottomrule
+\end{tabular}
+\caption{Posterior parameter mean, median, and 95\% credible intervals for $\beta_0$, $\beta_1$ and $\sigma$.}
+\end{center}
+\label{table:mcmcResults}
+\vspace{2cm}
+\end{table}
+
+
+\begin{table}
+  \begin{center}
+    \begin{threeparttable}[b]
+      \begin{tabular}{cccccccc}
+\toprule
+ & \textbf{Recon} & \multicolumn{2}{c}{PDSI} & \multicolumn{4}{c}{Precip} \\ \cmidrule(lr){2-2} \cmidrule(lr){3-4} \cmidrule(lr){5-8}
+ & MJ Precip & JT & NADA & NC AMJ & SC MAMJ & GA MAMJ & VA\tnote{A} \\  \midrule
+MJ Precip &  1      & & & & & & \\
+J PDSI    &  0.235  & 1      &        &         &        &       &   \\ 
+NADA PDSI &  0.643* & 0.502* & 1      &         &        &       &   \\ 
+NC AMJ    &  0.241* & 0.396* & 0.424* & 1       &        &       &   \\ 
+SC MAMJ   &  0.127  & 0.178* & 0.352* & 0.581*  &  1     &       &   \\ 
+GA MAMJ   &  0.091  & 0.196* & 0.345* & 0.474*  & 0.766* & 1     &   \\ 
+VA        &  0.382* & 0.288* & 0.499* & 0.132   & 0.090  & 0.109 & 1 \\ \bottomrule
+      \end{tabular}
+      \caption{Correlation between the mjPR reconstruction and other reconstructions including the Cook (NADA PDSI) and Stahle and Cleaveland (J PDSI) PDSI reconstructions, the Stahle and Cleaveleand (NC AMJ, SC MAMJ, GA MAMJ) and Druckenbrod (VA) precipitation reconstructions.}
+      \begin{tablenotes}
+      \item [A] Reconstruction only available for period 1764 - 1966.
+      \item [*] Significant at the $p<0.01$ level.
+      \end{tablenotes}
+    \end{threeparttable}
+  \end{center}
+  \label{table:reconComps1}
+  \vspace{2cm}
+\end{table}
+
+%\begin{table}
+%  \begin{center}
+%    \begin{threeparttable}[b]
+%      \begin{tabular}{|c||c|c|c|c|c|c|c|}
+%\hline
+% & \textbf{Recon} & \multicolumn{2}{|c|}{PDSI} & \multicolumn{4}{|c|}{Precip} \\ \hline
+%          & MJ Precip & JT & NADA & NC AMJ & SC MAMJ & GA MAMJ & VA\tnote{A} \\  \hline \hline
+%MJ Precip & 1      &         &        &        &        &       &   \\ \hline
+%JT PDSI   & 0.325* & 1       &        &        &        &       &   \\ \hline
+%NADA PDSI & 0.741* & 0.515*  & 1      &        &        &       &   \\ \hline
+%NC AMJ    & 0.412* & 0.429*  & 0.469* & 1      &        &       &   \\ \hline
+%SC MAMJ   & 0.287* & 0.276** & 0.460* & 0.608* & 1      &       &   \\ \hline
+%GA MAMJ   & 0.322* & 0.274** & 0.466* & 0.461* & 0.750* & 1     &   \\ \hline
+%VA        & 0.457* & 0.257** & 0.532* & 0.131 & 0.157    & 0.235 & 1 \\ \hline
+%      \end{tabular}
+%      \caption{Correlation table for the 1750-1981 time period.}
+%      \begin{tablenotes}
+%      \item [A] Reconstruction only available for period through 1966.
+%      \item [*] Significant at the $p<0.01$ level.
+%      \item [**] Significant at the $p<0.05$ level.
+%      \end{tablenotes}
+%    \end{threeparttable}
+%  \end{center}
+%  \label{table:reconComps2}
+%\end{table}
+

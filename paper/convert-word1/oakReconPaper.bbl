@@ -1,0 +1,433 @@
+\begin{thebibliography}{64}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{North Carolina Natural Heritage Program (NCNHP)}(1999)]{NCNHP2012}
+{North Carolina Natural Heritage Program (NCNHP)}.
+\newblock {An Inventory of the Significant Natural Areas of Ashe County, North
+  Carolina}, 1999.
+\newblock URL \url{http://www.ncnhp.org/Images/Ashe10-10-2005.pdf}.
+\newblock Accessed September 2012.
+
+\bibitem[Zipper et~al.(2011)Zipper, Burger, Skousen, Angel, Barton, Davis, and
+  Franklin]{zipper2011restoring}
+C.E. Zipper, J.A. Burger, J.G. Skousen, P.N. Angel, C.D. Barton, V.~Davis, and
+  J.A. Franklin.
+\newblock Restoring forests and associated ecosystem services on appalachian
+  coal surface mines.
+\newblock \emph{Environmental management}, 47\penalty0 (5):\penalty0 751--765,
+  2011.
+
+\bibitem[Pachauri and Reisinger(2007)]{pachauri2007climate}
+RK~Pachauri and A.~Reisinger.
+\newblock {Climate Change 2007: Synthesis Report. Contribution of Working
+  Groups I, II and III to the Fourth Assessment Report of the Intergovernmental
+  Panel on Climate Change}.
+\newblock \emph{Intergovernmental Panel on Climate Change}, 2007.
+
+\bibitem[Kattenberg et~al.(1996)Kattenberg, Giorgi, Grassl, Meehl, Mitchell,
+  Stouffer, Tokioka, Weaver, and Wigley]{kattenberg1996climate}
+K.~Kattenberg, F.~Giorgi, H.~Grassl, G.A. Meehl, J.F.B. Mitchell, R.J.
+  Stouffer, T.~Tokioka, A.J. Weaver, and T.M.L Wigley.
+\newblock Climate models--projections of future climate.
+\newblock In J.T. Houghton, LG~Meiro~Filho, B.A. Callander, N.~Harris,
+  A.~Kattenburg, and K.~Maskell, editors, \emph{{Climate change 1995: The
+  science of climate change: contribution of working group I to the second
+  assessment report of the Intergovernmental Panel on Climate Change}}, pages
+  285--357. Cambridge University Press, 1996.
+
+\bibitem[Seager et~al.(2009)Seager, Tzanova, and Nakamura]{seager2009drought}
+R.~Seager, A.~Tzanova, and J.~Nakamura.
+\newblock Drought in the southeastern {United States}: Causes, variability over
+  the last millennium, and the potential for future hydroclimate change.
+\newblock \emph{Journal of Climate}, 22\penalty0 (19):\penalty0 5021--5045,
+  2009.
+
+\bibitem[Sobolowski and Pavelsky(2012)]{sobolowski2012evaluation}
+S.~Sobolowski and T.~Pavelsky.
+\newblock Evaluation of present and future {North American Regional Climate
+  Change Assessment Program (NARCCAP)} regional climate simulations over the
+  southeast {United States}.
+\newblock \emph{Journal of Geophysical Research}, 117:\penalty0 D01101, 2012.
+
+\bibitem[Cook et~al.(2004)Cook, Woodhouse, Eakin, Meko, and
+  Stahle]{cook2004long}
+E.R. Cook, C.A. Woodhouse, C.M. Eakin, D.M. Meko, and D.W. Stahle.
+\newblock Long-term aridity changes in the western {United States}.
+\newblock \emph{Science}, 306\penalty0 (5698):\penalty0 1015--1018, 2004.
+
+\bibitem[B{\"u}ntgen et~al.(2007)B{\"u}ntgen, Frank, Kaczka, Verstege,
+  Zwijacz-Kozica, and Esper]{buntgen2007growth}
+U.~B{\"u}ntgen, D.C. Frank, R.J. Kaczka, A.~Verstege, T.~Zwijacz-Kozica, and
+  J.~Esper.
+\newblock {Growth responses to climate in a multi-species tree-ring network in
+  the Western Carpathian Tatra Mountains, Poland and Slovakia}.
+\newblock \emph{Tree Physiology}, 27\penalty0 (5):\penalty0 689--702, 2007.
+
+\bibitem[LeBlanc(1993)]{leblanc1993temporal}
+D.C. LeBlanc.
+\newblock Temporal and spatial variation of oak growth-climate relationships
+  along a pollution gradient in the midwestern {United States}.
+\newblock \emph{Canadian Journal of Forest Research}, 23\penalty0 (5):\penalty0
+  772--782, 1993.
+
+\bibitem[Stahle and Cleveland(1993)]{stahle1993}
+D.W. Stahle and M.K. Cleveland.
+\newblock Large-scale climatic influences on baldcypress tree growth across the
+  southeastern united states.
+\newblock In P.D. Jones, R.S. Bradley, and J.~Jouzel, editors, \emph{{Climatic
+  variations and forcing mechanisms of the last 2000 years}}, I41, pages 125 --
+  140. NATO ASI, 1993.
+
+\bibitem[Cook et~al.(1999)Cook, Meko, Stahle, and Cleaveland]{cook1999drought}
+E.R. Cook, D.M. Meko, D.W. Stahle, and M.K. Cleaveland.
+\newblock Drought reconstructions for the continental {United States}.
+\newblock \emph{Journal of Climate}, 12\penalty0 (4):\penalty0 1145--1162,
+  1999.
+
+\bibitem[Fritts(1976)]{fritts1976tree}
+H.C. Fritts.
+\newblock \emph{Tree rings and climate}.
+\newblock London, New York, San Francisco.: Academic Press, 1976.
+
+\bibitem[Phipps(1982)]{phipps1982comments}
+R.L. Phipps.
+\newblock Comments on interpretation of climatic information from tree rings,
+  eastern {North America}.
+\newblock \emph{Tree-ring bulletin}, 42:\penalty0 11--22, 1982.
+
+\bibitem[Pan et~al.(1997)Pan, Tajchman, and
+  Kochenderfer]{pan1997dendroclimatological}
+C.~Pan, SJ~Tajchman, and JN~Kochenderfer.
+\newblock Dendroclimatological analysis of major forest species of the central
+  {Appalachians}.
+\newblock \emph{Forest Ecology and Management}, 98\penalty0 (1):\penalty0
+  77--87, 1997.
+
+\bibitem[Speer et~al.(2009)Speer, Grissino-Mayer, Orvis, and
+  Greenberg]{speer2009climate}
+J.H. Speer, H.D. Grissino-Mayer, K.H. Orvis, and C.H. Greenberg.
+\newblock Climate response of five oak species in the eastern deciduous forest
+  of the southern {Appalachian Mountains, USA}.
+\newblock \emph{Canadian Journal of Forest Research}, 39\penalty0 (3):\penalty0
+  507--518, 2009.
+
+\bibitem[Rubino and McCarthy(2000)]{rubino2000dendroclimatological}
+D.L. Rubino and B.C. McCarthy.
+\newblock {Dendroclimatological analysis of white oak (\textit{Quercus alba}
+  L., Fagaceae) from an old-growth forest of southeastern Ohio, USA}.
+\newblock \emph{Journal of the Torrey Botanical Society}, pages 240--250, 2000.
+
+\bibitem[Stokes and Smiley(1996)]{stokes1996introduction}
+M.A. Stokes and T.L. Smiley.
+\newblock \emph{An introduction to tree-ring dating}.
+\newblock University of Arizona Press, 1996.
+
+\bibitem[Yamaguchi(1991)]{yamaguchi1991simple}
+David~K Yamaguchi.
+\newblock A simple method for {cross-dating} increment cores from living trees.
+\newblock \emph{Canadian Journal of Forest Research}, 21\penalty0 (3):\penalty0
+  414--416, 1991.
+
+\bibitem[Holmes(1983)]{holmes1983computer}
+R.L. Holmes.
+\newblock Computer-assisted quality control in tree-ring dating and
+  measurement.
+\newblock \emph{Tree-ring bulletin}, 43\penalty0 (1):\penalty0 69--78, 1983.
+
+\bibitem[Cook and Peters(1997)]{cook1997calculating}
+E.R. Cook and K.~Peters.
+\newblock Calculating unbiased tree-ring indices for the study of climatic and
+  environmental change.
+\newblock \emph{The Holocene}, 7\penalty0 (3):\penalty0 361--370, 1997.
+
+\bibitem[Cook and Peters(1981)]{cook1981smoothing}
+E.R. Cook and K.~Peters.
+\newblock The smoothing spline: a new approach to standardizing forest interior
+  tree-ring width series for dendroclimatic studies.
+\newblock \emph{Tree-ring bulletin}, 41:\penalty0 45--53, 1981.
+
+\bibitem[Monserud(1986)]{monserud1986time}
+R.A. Monserud.
+\newblock Time-series analyses of tree-ring chronologies.
+\newblock \emph{Forest Science}, 32\penalty0 (2):\penalty0 349--372, 1986.
+
+\bibitem[Cook(1987)]{cook1987decomposition}
+E.R. Cook.
+\newblock The decomposition of tree-ring series for environmental studies.
+\newblock \emph{Tree-Ring Bulletin}, 47:\penalty0 37--59, 1987.
+
+\bibitem[Wigley et~al.(1984)Wigley, Briffa, and Jones]{wigley1984average}
+TML Wigley, KR~Briffa, and PD~Jones.
+\newblock On the average value of correlated time series, with applications in
+  dendroclimatology and hydrometeorology.
+\newblock \emph{Journal of Climate and Applied Meteorology}, 23\penalty0
+  (2):\penalty0 201--213, 1984.
+
+\bibitem[Peters et~al.(1981)Peters, Jacoby, and Cook]{peters1981principal}
+K.~Peters, GC~Jacoby, and E.R. Cook.
+\newblock Principal components analysis of tree-ring sites.
+\newblock \emph{Tree-Ring Bulletin}, 41:\penalty0 1--19, 1981.
+
+\bibitem[Anchukaitis et~al.(2006)Anchukaitis, Evans, Kaplan, Vaganov, Hughes,
+  Grissino-Mayer, and Cane]{anchukaitis2006forward}
+KJ~Anchukaitis, MN~Evans, A.~Kaplan, EA~Vaganov, MK~Hughes, HD~Grissino-Mayer,
+  and MA~Cane.
+\newblock Forward modeling of regional scale tree-ring patterns in the
+  southeastern {United States} and the recent influence of summer drought.
+\newblock \emph{Geophysical Research Letters}, 33\penalty0 (4):\penalty0
+  L04705, 2006.
+
+\bibitem[Jacoby and D'Arrigo(1989)]{jacoby1989reconstructed}
+G.C. Jacoby and R.~D'Arrigo.
+\newblock Reconstructed northern hemisphere annual temperature since 1671 based
+  on high-latitude tree-ring data from {North America}.
+\newblock \emph{Climatic Change}, 14\penalty0 (1):\penalty0 39--59, 1989.
+
+\bibitem[Wold et~al.(1987)Wold, Esbensen, and Geladi]{wold1987principal}
+S.~Wold, K.~Esbensen, and P.~Geladi.
+\newblock Principal component analysis.
+\newblock \emph{Chemometrics and intelligent laboratory systems}, 2\penalty0
+  (1):\penalty0 37--52, 1987.
+
+\bibitem[Cook et~al.(2007)Cook, Seager, Cane, and Stahle]{cook2007north}
+Edward~R Cook, Richard Seager, Mark~A Cane, and David~W Stahle.
+\newblock North american drought: reconstructions, causes, and consequences.
+\newblock \emph{Earth-Science Reviews}, 81\penalty0 (1):\penalty0 93--134,
+  2007.
+
+\bibitem[Palmer(1965)]{palmer1965meteorological}
+Wayne~C Palmer.
+\newblock \emph{Meteorological drought}.
+\newblock US Department of Commerce, Weather Bureau Washington, DC, USA, 1965.
+
+\bibitem[Harris et~al.(2014)Harris, Jones, Osborn, and
+  Lister]{harris2014updated}
+I.~Harris, P.D. Jones, T.J. Osborn, and D.H. Lister.
+\newblock Updated high-resolution grids of monthly climatic observations{--}the
+  {CRU TS3. 10} dataset.
+\newblock \emph{International Journal of Climatology}, 34\penalty0
+  (3):\penalty0 623--642, 2014.
+
+\bibitem[Trouet and Van~Oldenborgh(2013)]{trouet2013knmi}
+V.~Trouet and G.J. Van~Oldenborgh.
+\newblock {KNMI Climate Explorer:} a web-based research tool for
+  high-resolution paleoclimatology.
+\newblock \emph{Tree-Ring Research}, 69\penalty0 (1):\penalty0 3--13, 2013.
+
+\bibitem[Cook et~al.(1994)Cook, Briffa, and Jones]{cook1994spatial}
+Edward~R Cook, Keith~R Briffa, and Philip~D Jones.
+\newblock Spatial regression methods in dendroclimatology: a review and
+  comparison of two techniques.
+\newblock \emph{International Journal of Climatology}, 14\penalty0
+  (4):\penalty0 379--402, 1994.
+
+\bibitem[Committee on Surface Temperature Reconstructions for~the
+  Last~2(2006)]{national2006surface}
+National Research~Council Committee on Surface Temperature Reconstructions
+  for~the Last~2, 000~Years.
+\newblock \emph{Surface Temperature Reconstructions for the Last 2,000 Years}.
+\newblock The National Academies Press, 2006.
+
+\bibitem[Stahle et~al.(1998)Stahle, Cleaveland, Blanton, Therrell, and
+  Gay]{stahle1998lost}
+D.W. Stahle, M.K. Cleaveland, D.B. Blanton, M.D. Therrell, and D.A. Gay.
+\newblock The lost colony and {Jamestown} droughts.
+\newblock \emph{Science}, 280\penalty0 (5363):\penalty0 564--567, 1998.
+
+\bibitem[Stahle and Cleaveland(1992)]{stahle1992reconstruction}
+D.W. Stahle and M.K. Cleaveland.
+\newblock Reconstruction and analysis of spring rainfall over the southeastern
+  {US} for the past 1000 years.
+\newblock \emph{Bulletin of the American Meteorological Society;(United
+  States)}, 73\penalty0 (12), 1992.
+
+\bibitem[Druckenbrod et~al.(2003)Druckenbrod, Mann, Stahle, Cleaveland,
+  Therrell, and Shugart]{druckenbrod2003late}
+D.L. Druckenbrod, M.E. Mann, D.W. Stahle, M.K. Cleaveland, M.D. Therrell, and
+  H.H. Shugart.
+\newblock Late-eighteenth-century precipitation reconstructions from {James
+  Madison's Montpelier} plantation.
+\newblock \emph{Bulletin of the American Meteorological Society}, 84\penalty0
+  (1):\penalty0 57--72, 2003.
+
+\bibitem[Torrence and Compo(1998)]{torrence1998practical}
+C.~Torrence and G.P. Compo.
+\newblock A practical guide to wavelet analysis.
+\newblock \emph{Bulletin of the American Meteorological society}, 79\penalty0
+  (1):\penalty0 61--78, 1998.
+
+\bibitem[Fritts et~al.(1990)Fritts, Guiot, Gordon, and
+  Schweingruber]{fritts1990methods}
+HC~Fritts, J.~Guiot, GA~Gordon, and F.~Schweingruber.
+\newblock Methods of calibration, verification, and reconstruction.
+\newblock \emph{Methods of Dendrochronology}, pages 163--217, 1990.
+
+\bibitem[Li(2011)]{li2011dendroclimatic}
+Y.~Li.
+\newblock \emph{Dendroclimatic Analysis of Climate Oscillations for the
+  Southeastern {United States} from Tree-ring Network Data}.
+\newblock PhD thesis, University of Tennessee, 2011.
+
+\bibitem[Robertson(1992)]{robertson1992factors}
+P.A. Robertson.
+\newblock Factors affecting tree growth on three lowland sites in southern
+  {Illinois}.
+\newblock \emph{American Midland Naturalist}, pages 218--236, 1992.
+
+\bibitem[Zweifel et~al.(2006)Zweifel, Zimmermann, Zeugin, and
+  Newbery]{zweifel2006intra}
+R.~Zweifel, L.~Zimmermann, F.~Zeugin, and D.M. Newbery.
+\newblock Intra-annual radial growth and water relations of trees: implications
+  towards a growth mechanism.
+\newblock \emph{Journal of Experimental Botany}, 57\penalty0 (6):\penalty0
+  1445--1459, 2006.
+
+\bibitem[Dickson and Tomlinson(1996)]{dickson1996oak}
+RE~Dickson and PT~Tomlinson.
+\newblock Oak growth, development and carbon metabolism in response to water
+  stress.
+\newblock In \emph{Annales des Sciences Foresti{\`e}res}, volume~53, pages
+  181--196, 1996.
+
+\bibitem[Cook(1985)]{cook1985time}
+Edward~Roger Cook.
+\newblock \emph{A TIME SERIES ANALYSIS APPROACH TO TREE RING STANDARDIZATION}.
+\newblock PhD thesis, The University of Arizona, 1985.
+
+\bibitem[Cook et~al.(1990)Cook, Briffa, Shiyatov, and Mazepa]{cook1990tree}
+E~R Cook, K~Briffa, S~Shiyatov, and V~Mazepa.
+\newblock Tree-ring standardization and growth-trend estimation.
+\newblock In Edward~R Cook and Leonardas~A Kairiukstis, editors, \emph{Methods
+  of dendrochronology: applications in the environmental sciences}. Kluwer,
+  1990.
+
+\bibitem[Melvin and Briffa(2008)]{melvin2008signal}
+Thomas~M Melvin and Keith~R Briffa.
+\newblock A {``signal-free''} approach to dendroclimatic standardisation.
+\newblock \emph{Dendrochronologia}, 26\penalty0 (2):\penalty0 71--86, 2008.
+
+\bibitem[Oliver(1980)]{oliver1980forest}
+C.D. Oliver.
+\newblock Forest development in {North America} following major disturbances.
+\newblock \emph{Forest ecology and management}, 3:\penalty0 153--168, 1980.
+
+\bibitem[Beniston et~al.(1997)Beniston, Diaz, and
+  Bradley]{beniston1997climatic}
+M.~Beniston, HF~Diaz, and RS~Bradley.
+\newblock Climatic change at high elevation sites: an overview.
+\newblock \emph{Climatic Change}, 36\penalty0 (3):\penalty0 233--251, 1997.
+
+\bibitem[Cole et~al.(2002)Cole, Overpeck, and Cook]{cole2002multiyear}
+Julia~E Cole, Jonathan~T Overpeck, and Edward~R Cook.
+\newblock Multiyear la ni{\~n}a events and persistent drought in the contiguous
+  united states.
+\newblock \emph{Geophysical Research Letters}, 29\penalty0 (13):\penalty0
+  25--1, 2002.
+
+\bibitem[Pielke~Jr and Landsea(1999)]{pielke1999nina}
+R.A. Pielke~Jr and C.N. Landsea.
+\newblock La ni{\~n}a, el ni{\~n}o and atlantic hurricane damages in the
+  {United States}.
+\newblock \emph{Bulletin of the American Meteorological Society}, 80\penalty0
+  (10):\penalty0 2027--2033, 1999.
+
+\bibitem[Fye et~al.(2003)Fye, Stahle, and Cook]{fye2003paleoclimatic}
+Falko~K Fye, David~W Stahle, and Edward~R Cook.
+\newblock Paleoclimatic analogs to twentieth-century moisture regimes across
+  the united states.
+\newblock \emph{Bulletin of the American Meteorological Society}, 84\penalty0
+  (7):\penalty0 901--909, 2003.
+
+\bibitem[Hancock and Yarger(1979)]{hancock1979cross}
+D.J. Hancock and D.N. Yarger.
+\newblock Cross-spectral analysis of sunspots and monthly mean temperature and
+  precipitation for the contiguous {United States}.
+\newblock \emph{Journal of Atmospheric Sciences}, 36:\penalty0 746--746, 1979.
+
+\bibitem[Lassen and Friis-Christensen(1995)]{lassen1995variability}
+K.~Lassen and E.~Friis-Christensen.
+\newblock Variability of the solar cycle length during the past five centuries
+  and the apparent association with terrestrial climate.
+\newblock \emph{Journal of Atmospheric and Terrestrial Physics}, 57\penalty0
+  (8):\penalty0 835--845, 1995.
+
+\bibitem[Cook et~al.(1997)Cook, Meko, and Stockton]{cook1997new}
+E.R. Cook, D.M. Meko, and C.W. Stockton.
+\newblock A new assessment of possible solar and lunar forcing of the bidecadal
+  drought rhythm in the western {United States}.
+\newblock \emph{Journal of Climate}, 10\penalty0 (6):\penalty0 1343--1356,
+  1997.
+
+\bibitem[Reid(2002)]{reid2002solar}
+G.C. Reid.
+\newblock Solar irradiance variations and the global sea surface temperature
+  record.
+\newblock \emph{Climate Change: Natural forcing factors for climate change
+  timescales 10-1 to 10-5 years}, 2:\penalty0 7, 2002.
+
+\bibitem[Board~on Global~Change(1994)]{national1994Solar}
+National Research~Council Board~on Global~Change.
+\newblock \emph{Solar Influences on Global Change}.
+\newblock The National Academies Press, 1994.
+\newblock ISBN 9780309051484.
+\newblock URL \url{http://www.nap.edu/openbook.php?record_id=4778}.
+
+\bibitem[Friis-Christensen and Lassen(1991)]{friis1991length}
+Eigil Friis-Christensen and Knud Lassen.
+\newblock Length of the solar cycle- an indicator of solar activity closely
+  associated with climate.
+\newblock \emph{Science}, 254\penalty0 (5032):\penalty0 698--700, 1991.
+
+\bibitem[Usoskin et~al.(2003)Usoskin, Solanki, Sch{\"u}ssler, Mursula, and
+  Alanko]{usoskin2003millennium}
+Ilya~G Usoskin, Sami~K Solanki, Manfred Sch{\"u}ssler, Kalevi Mursula, and
+  Katja Alanko.
+\newblock Millennium-scale sunspot number reconstruction: Evidence for an
+  unusually active sun since the 1940s.
+\newblock \emph{Physical Review Letters}, 91\penalty0 (21):\penalty0 211101,
+  2003.
+
+\bibitem[Nichols and Huang(2012)]{nichols2012hydroclimate}
+J.E. Nichols and Y.~Huang.
+\newblock Hydroclimate of the northeastern {United States} is highly sensitive
+  to solar forcing.
+\newblock \emph{Geophysical Research Letters}, 39\penalty0 (4):\penalty0
+  L04707, 2012.
+
+\bibitem[Franks(2002)]{franks2002assessing}
+S.W. Franks.
+\newblock Assessing hydrological change: deterministic general circulation
+  models or spurious solar correlation?
+\newblock \emph{Hydrological Processes}, 16\penalty0 (2):\penalty0 559--564,
+  2002.
+
+\bibitem[Warrick et~al.(1980)]{warrick1980drought}
+R.A. Warrick et~al.
+\newblock Drought in the great plains{: A} case study of research on climate
+  and society in the {USA}.
+\newblock \emph{Climatic constraints and human activities}, 10:\penalty0
+  93--123, 1980.
+
+\bibitem[Ruffner and Abrams(1998)]{ruffner1998relating}
+C.M. Ruffner and M.D. Abrams.
+\newblock {Relating land-use history and climate to the dendroecology of a
+  326-year-old \textit{Quercus prinus} talus slope forest}.
+\newblock \emph{Canadian Journal of Forest Research}, 28\penalty0 (3):\penalty0
+  347--358, 1998.
+
+\bibitem[of~California(1990)]{droughtCali}
+State of~California.
+\newblock Drought conditions in {California}.
+\newblock Technical report, Department of Water Resources, 1990.
+
+\bibitem[Lawson and Stockton(2005)]{lawson2005desert}
+M.P. Lawson and C.W. Stockton.
+\newblock Desert myth and climatic reality.
+\newblock \emph{Annals of the Association of American Geographers}, 71\penalty0
+  (4):\penalty0 527--535, 2005.
+
+\end{thebibliography}

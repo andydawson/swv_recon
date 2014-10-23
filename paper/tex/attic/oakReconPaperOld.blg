@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: oakReconPaperOld.aux
+The style file: unsrtnat.bst
+Database file #1: oakRecon.bib
+Warning--entry type for "NCNHP2012" isn't style-file defined
+--line 280 of file oakRecon.bib
+Warning--I didn't find a database entry for "cook1997calculating"
+Warning--I didn't find a database entry for "XXX"
+You've used 30 entries,
+            2481 wiz_defined-function locations,
+            754 strings with 10891 characters,
+and the built_in function-call counts, 12292 in all, are:
+= -- 1031
+> -- 649
+< -- 23
++ -- 251
+- -- 191
+* -- 959
+:= -- 1951
+add.period$ -- 93
+call.type$ -- 30
+change.case$ -- 55
+chr.to.int$ -- 30
+cite$ -- 30
+duplicate$ -- 617
+empty$ -- 1109
+format.name$ -- 237
+if$ -- 2612
+int.to.chr$ -- 1
+int.to.str$ -- 31
+missing$ -- 32
+newline$ -- 159
+num.names$ -- 94
+pop$ -- 252
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 386
+stack$ -- 0
+substring$ -- 620
+swap$ -- 109
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 198
+warning$ -- 0
+while$ -- 108
+width$ -- 0
+write$ -- 397
+(There were 3 warnings)
