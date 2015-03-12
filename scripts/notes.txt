@@ -1,0 +1,14 @@
+Config
+-------------------------
+utils/config.py: set the base path!
+
+Building the chronologies
+-------------------------
+mkchrons.py: Detrend the chronologies using a smoothing spline. Can set the spline stiffness. Detrended chrons are saved in data/chronsGen.
+
+
+
+Plotting
+-------------------------
+
+sample_size.py: plots the sample size against year based on the chronologies used in the PCA
