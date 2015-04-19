@@ -23,7 +23,7 @@ else:
   S = S2.ix[1750:1844].append(S1.ix[1845:1981])
 
 #precipProxyFuns.precipProxy_var(S, 'precip')
-#precipProxyFuns.precipProxy(S, 'precip')
+precipProxyFuns.precipProxy(S, 'precip')
 
 plot_vals = pandas.read_csv(base_path + 'csv/plot_vals.csv', index_col=[0])
 plot_vals_std = pandas.read_csv(base_path + 'csv/plot_vals_std.csv', index_col=[0])

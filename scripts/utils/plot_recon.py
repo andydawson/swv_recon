@@ -159,7 +159,7 @@ def plot_paper_fig(scores, plot_vals, flag):
   
   subplot(312)
   locator_params(axis='y', nbins=4)
-  fill_between(t, pred_bot, pred_top, color='0.8')    
+  fill_between(t, pred_bot.values, pred_top.values, color='0.8')    
   plot(t, pred_mean, '-k', lw=lw)
   xlim([1745, 1985])
   #ylabel('Average MJ Precipitation (mm)')
@@ -178,7 +178,7 @@ def plot_paper_fig(scores, plot_vals, flag):
   top = smooth(pred_top) #- climVar.mean()
   bot = smooth(pred_bot+1000)-1000 #-1000 #- climVar.mean() - 1000
   mean = smooth(pred_mean) #- climVar.mean()
-  fill_between(t, bot, top, color='0.8')    
+  fill_between(t, bot.values, top.values, color='0.8')    
   plot(t, mean, '-k', lw=lw)
   xlim([1745, 1985])
   #ylim([-200, 200])

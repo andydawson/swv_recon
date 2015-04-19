@@ -565,7 +565,7 @@ def PCA_svd(X, standardize=True):
     variances_sum = sum(variances)
     explained_var = variances / variances_sum
     
-    return Scores, Loadings, explained_var
+    return Scores, Loadings, variances, explained_var
 
 
 

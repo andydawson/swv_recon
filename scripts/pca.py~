@@ -1,0 +1,116 @@
+"""Compute and plot PCA stuff."""
+
+import matplotlib.pylab as plt
+
+from pprint import pprint
+
+from scipy.stats import pearsonr
+
+import utils.chronologies
+from utils.pcaFuns import *
+
+#chrons = utils.chronologies.published_chronologies(cut_eps=False)
+chrons = utils.chronologies.published_chronologies(cut_eps=True)
+
+# compute pca's
+
+#previously 1845-1981
+S1, T1, E1, cols1 = pca(chrons, 1845, 1981, return_raw_scores=True)
+S2, T2, E2, cols2 = pca(chrons, 1750, 1981, return_raw_scores=True) 
+
+S1tmp, _, _, _ = pca(chrons, 1845, 1981)
+S2tmp, _, _, _ = pca(chrons, 1750, 1981)
+
+r, p = pearsonr(S1tmp.ix[1845:1981], S2tmp.ix[1845:1981])
+
+pcaNested = pandas.DataFrame(pandas.concat([S2tmp.ix[1750:1900], S1tmp.ix[1901:1981]]))
+pcaNested = pcaNested.rename_axis({ 0: 'pca1' })
+pcaNested.to_csv('csv/pcaNested.csv')
+
+print r, p
+
+# print reconstruction statistics
+
+print "mjPR"
+stats1, stats2 = test_chron(chrons, 'mjPrecip', 1845, 1981)
+
+print '==> first calibration'
+pprint(stats1)
+print '==> second calibration'
+pprint(stats2)
+
+print "jjPDSI"
+stats1, stats2 = test_chron(chrons, 'jjPdsi', 1845, 1981)
+
+print '==> first calibration'
+pprint(stats1)
+print '==> second calibration'
+pprint(stats2)
+
+
+# print reconstruction statistics for the 1750 - 1981 period
+
+print "mjPR"
+stats1, stats2 = test_chron(chrons, 'mjPrecip', 1750, 1981)
+
+print '==> first calibration: begin 1750'
+pprint(stats1)
+print '==> second calibration: begin 1750'
+pprint(stats2)
+
+print "jjPDSI"
+stats1, stats2 = test_chron(chrons, 'jjPdsi', 1750, 1981)
+
+print '==> first calibration: begin 1750'
+pprint(stats1)
+print '==> second calibration: begin 1750'
+pprint(stats2)
+
+# plot pca scores
+
+def plot_pca_scores(cols, scores, E):
+  
+  y = scores[:,0]
+  t = scores[:,1]
+  dx = 0.008
+
+  #pprint(dir(chrons))
+  print chrons.columns
+
+  label = [ x.upper() for x in cols ]
+  
+  for i in range(scores.shape[1]):
+    if label[i] == 'NC':
+      label[i] = 'BM'
+    plt.plot([t[i]],[y[i]], marker='o', markersize=10, label=label[i], color = 'grey')
+    plt.text(t[i] + dx,y[i] + dx,label[i], fontsize=16)
+
+  plt.grid()
+  plt.axhline(0, color='k', linestyle='dashed')
+  plt.axvline(0, color='k', linestyle='dashed')
+  plt.xlabel('PC 1 (%.1f%%)' % (E[0]*100,))
+  plt.ylabel('PC 2 (%.1f%%)' % (E[1]*100,))
+  
+
+plt.figure()
+plt.subplot(211)
+plot_pca_scores(cols1, S1, E1)
+plt.xlim([-0.02, 0.18])
+plt.ylim([-0.25, 0.15])
+
+plt.subplot(212)
+plot_pca_scores(cols2, S2, E2)
+plt.xlim([-0.05, 0.55])
+plt.ylim([-0.40, 0.05])
+
+plt.tight_layout()
+
+#plt.savefig('plots/scoresPlot.png')
+
+plt.show()
+ 
+ 
+#build the recont in the VT way
+
+chron, chron_sd = build_recon_vt(chrons, 'mjPrecip', start=1750, end=1981)
+

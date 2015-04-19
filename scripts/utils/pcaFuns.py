@@ -38,16 +38,16 @@ def pca(df, start, end, return_raw_scores=False):
   #   corr, pval = pearsonr(x[:, 0], x[:, i])
   #   print corr, pval
 
-  S, T, E = PCA(x, standardize=False)
+  S, T, V, E = PCA(x, standardize=False)
   
   if start==1750:
     S=-S
 
   if return_raw_scores:
-    return S, T, E, chrons.columns
+    return S, T, V, E, chrons.columns
     
   S = pandas.Series(S[:, 0], index=chrons.index)
-  return S, T, E, chrons.columns
+  return S, T, V, E, chrons.columns
 
 
 def build_recon(pAnom, pca, start=1901, end=1981):
@@ -98,19 +98,25 @@ def test_recon(pAnom, scaled, start1, end1, start2, end2):
   return { 'mse': MSE, 're': RE, 'ce': CE, 'rcal': rcal, 'rver': rver, 'glk': glk }
 
 
-def test_chron(df, kind, start=1845, end=1981):
+def test_chron(df, kind, start=1845, end=1981, splice=False):
   """Note: kind is either 'mjPrecip' or 'jjPdsi'."""
-
+  
   S1, T1, E1, cols = pca(df, start, end)
+
+  if splice:
+    S2, T2, E2, cols = pca(df, 1845, 1981)
+    S = S1.ix[1750:1844].append(S2.ix[1845:1981])
+  else:
+    S = S1
 
   #precip = pandas.read_csv('csv/mjPrecip.csv', index_col=[0])
   #precip = pandas.read_csv('csv/jjPdsi.csv', index_col=[0])
   precip = pandas.read_csv('csv/'+kind+'.csv', index_col=[0])
   pAnom  = precip - precip.ix[1961:1990].mean()
 
-  scaled0, stdev0 = build_recon(pAnom, S1, 1901, 1981)
-  scaled1, stdev1 = build_recon(pAnom, S1, 1901, 1940)
-  scaled2, stdev2 = build_recon(pAnom, S1, 1941, 1981)
+  scaled0, stdev0 = build_recon(pAnom, S, 1901, 1981)
+  scaled1, stdev1 = build_recon(pAnom, S, 1901, 1940)
+  scaled2, stdev2 = build_recon(pAnom, S, 1941, 1981)
 
   stats1 = test_recon(pAnom, scaled1, 1901, 1940, 1941, 1981)
   stats2 = test_recon(pAnom, scaled2, 1941, 1981, 1901, 1940)
